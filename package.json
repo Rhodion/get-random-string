@@ -1,19 +1,22 @@
 {
   "name": "get-random-string",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Generate a string with random chars.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rhodion/random.git"
+    "url": "https://github.com/Rhodion/get-random-string.git"
   },
   "keywords": [
-    "npm",
     "random",
-    "password",
-    "generator"
+    "password generator",
+    "regex",
+    "regexp",
+    "regular expression"
   ],
   "author": "Rhodion Souza Araujo",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "randexp": "^0.5.3"
+  }
 }

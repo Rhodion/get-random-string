@@ -1,9 +1,9 @@
 # get-random-string
 
-A small JavaScript library for generating random symbols
+A small JavaScript library for generating random string
 
 - All browsers are supported
-- No dependencies
+- Regex included
 
 ## Installation
 
@@ -86,6 +86,10 @@ getRandomString({
     special: false, //special chars !@#$%&*()_+- (default: true)
   },
 });
-/* Result: 9PxqP!j(Cw
+/* Result: 9PxqP!j(Cw */
+
+getRandomString({ regex: "[a-zA-Z0-9]{8}" })
+/* Result: X6iz7cY
+
 
 ```
