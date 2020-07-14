@@ -15,7 +15,7 @@ module.exports = (options = 8, personalChars = "") => {
 
   if (typeof options == "object") {
     regex =
-      typeof options.regex && options.regex != ""
+      options.regex && options.regex != ""
         ? new RegExp(options.regex, "g")
         : regex;
     size = typeof options.size == "number" ? options.size : size;
