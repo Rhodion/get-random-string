@@ -1,6 +1,6 @@
 {
   "name": "get-random-string",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generate a string with random chars.",
   "main": "index.js",
   "repository": {
